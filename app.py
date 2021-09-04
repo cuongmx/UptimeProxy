@@ -28,5 +28,6 @@ def proxy(path):
   headers.append(['Access-Control-Allow-Origin', '*'])
   resptext = resp.content.decode('utf-8')
   resptext = resptext.replace("https://stats.uptimerobot.com/api/","%s://%s/api/"% (request.scheme, request.host))
+  resptext = resptext.replace("Powered by","Powered by <a href=\"https://github.com/cuongmx/UptimeProxy\" rel=\"nofollow noopener\" target=\"_blank\">UptimeProxy</a>")
   response = Response(resptext, resp.status_code, headers)
   return response
