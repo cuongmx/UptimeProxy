@@ -1,7 +1,7 @@
 {
     "name": "UptimeProxy",
     "description": "For customizing the UptimeRobot personal domain. This app will help to create a proxy to the status page.",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1200px-Medium_logo_Monogram.svg.png",
+    "logo": "https://raw.githubusercontent.com/cuongmx/UptimeProxy/main/uptime.png",
     "repository": "https://github.com/cuongmx/UptimeProxy",
     "env": {
       "UPTIME_SITE": {
